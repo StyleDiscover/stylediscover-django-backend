@@ -1,0 +1,12 @@
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.ebextensions/*
+
+clarendon/settings.py
+# */migrations/__pycache__/*
+# */migrations/*.py
+# !*/migrations/__init__.py
+*/__pycache__/*
